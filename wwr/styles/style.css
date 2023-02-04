@@ -1,3 +1,8 @@
+@font-face {
+    font-family: pony;
+    src: url(PonyvilleMedium-3636.ttf);
+}
+p {font-family: Arial, Helvetica, sans-serif;}
 #hero-img{
     width:100%;
     max-width:600px;
@@ -34,7 +39,8 @@ color: white;}
 .msg {background-color: azure;}
 footer {background-color: blue;
 color: white;}
-.home-title {color: black;}
+.home-title {color: black;
+font-family: pony, Georgia, 'Times New Roman', Times, serif;}
 .msg h2 {color: black;}
 .msg p {color: black;}
 footer a {color: black;}
@@ -45,3 +51,4 @@ footer a:hover {color: black;}
 .logo {
     width: 80px;
 }
+h2 {font-family: pony, Georgia, 'Times New Roman', Times, serif;}
