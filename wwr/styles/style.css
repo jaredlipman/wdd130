@@ -1,12 +1,7 @@
-@font-face {
-    font-family: pony;
-    src: url(PonyvilleMedium-3636.ttf);
-}
-
 p {font-family: Arial, Helvetica, sans-serif;}
 #hero-img{
-    width:100%;
-    max-width:600px;
+    width: 1600px;
+    max-width:1600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -53,3 +48,18 @@ footer a:hover {color: black;}
     width: 80px;
 }
 h2 {font-family: pony, Georgia, 'Times New Roman', Times, serif;}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
