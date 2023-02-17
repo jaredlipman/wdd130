@@ -16,7 +16,7 @@ main section {text-align: center;}
     height: 725px;
 }
 body {background-color: aquamarine;}
-header {background-color: blue;}
+header {background-color: rgb(70, 70, 245);}
 nav a:hover {background-color: blueviolet;
 color: black;}
 .book {background-color: cyan;
@@ -29,7 +29,7 @@ color: white;}
 color: white;}
 #background {background-color: teal;}
 .msg {background-color: azure;}
-footer {background-color: blue;
+footer {background-color: rgb(70, 70, 245);
     margin: 200px 0;
 color: white;}
 .home-title {color: black;
