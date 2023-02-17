@@ -1,10 +1,6 @@
 p {font-family: Arial, Helvetica, sans-serif;}
-#hero-img{
-    width: 1600px;
-    max-width:1600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#hero-img {
+    width: 100%;
 }
 #content{
     max-width: 1600px;
@@ -34,9 +30,11 @@ color: white;}
 #background {background-color: teal;}
 .msg {background-color: azure;}
 footer {background-color: blue;
+    margin: 200px 0;
 color: white;}
 .home-title {color: black;
-font-family: pony, Georgia, 'Times New Roman', Times, serif;}
+font-family: pony, Georgia, 'Times New Roman', Times, serif;
+margin-top: 10px;}
 .msg h2 {color: black;}
 .msg p {color: black;}
 footer a {color: black;}
@@ -63,3 +61,4 @@ h2 {font-family: pony, Georgia, 'Times New Roman', Times, serif;}
 main section img {
     box-sizing: border-box;
 }
+.rivers-card, .camping-card, .rapids-card {   margin: 200px 0;}
