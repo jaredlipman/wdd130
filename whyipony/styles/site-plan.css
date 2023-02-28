@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -71,7 +72,6 @@ p {
   width: 100%;
   min-width: 350px;
   margin: 30px auto;
-  text-align: center;
 }
 .colors th {
   background-color: #999;
