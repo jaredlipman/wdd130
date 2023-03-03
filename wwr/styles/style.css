@@ -183,3 +183,9 @@ nav {
         margin-top: 25px;
     }
 }
+
+.faq{
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 20px;
+}

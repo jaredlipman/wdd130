@@ -1,0 +1,17 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 300px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 300px;
+}
+
+.footer-text line-right{
+    padding: 5px;
+}
