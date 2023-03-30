@@ -20,7 +20,7 @@
   --nav-hover-background-color: #E90F90;
 }
 
-header {background-color: #23ACC9;
+header {background-color: #2490a5;
     display: grid;
     grid-template-columns: 150px auto 150px;
     grid-template-rows: 55px 55px 55px;
@@ -52,6 +52,8 @@ content {
 body {
     background-color: #23ACC9;
     font-size: 18px;
+    max-width: 1600px;
+    margin: 0 auto;
   }
 
 .hero {
@@ -66,16 +68,16 @@ body {
 }
 
 .left {
-    width: 300px;
+    width: 500px;
     background-color: aliceblue;
     margin-left: 10px;
     padding: 10px;
 }
 
 .right {
-    width: 300px;
+    width: 500px;
     background-color: aliceblue;
-    margin-left: 1170px;
+    margin-left: 980px;
     padding: 10px;
 }
 
@@ -174,4 +176,35 @@ h1 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+}
+
+.mtm6 {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#meetthe {
+    text-align: center;
+}
+
+.even {
+    display: block;
+    max-width: 500px;
+    width: 50%;
+    margin-left: auto;
+}
+
+.odd {
+    display: block;
+    max-width: 500px;
+    width: 50%;
+    margin-right: auto;
+}
+
+.credit {
+    text-align: center;
 }
